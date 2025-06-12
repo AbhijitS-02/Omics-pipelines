@@ -4,8 +4,21 @@
 # But do NOT ignore these folders and the .gitignore itself
 !.gitignore
 !Meta analysis methods
+
 !Bulk RNA Seq data analysis pipelines/
+!Bulk RNA Seq data analysis pipelines/GSE184316/
+!Bulk RNA Seq data analysis pipelines/GSE184316/HPvsIPF/
+!Bulk RNA Seq data analysis pipelines/GSE150910/
+!Bulk RNA Seq data analysis pipelines/GSE150910/Biopsy samples/
+!Bulk RNA Seq data analysis pipelines/GSE150910/Biopsy samples/CHP vs IPF/
+!Bulk RNA Seq data analysis pipelines/GSE150910/Explant samples/
+!Bulk RNA Seq data analysis pipelines/GSE150910/Explant samples/CHP vs IPF/
+
+
 !Microarray data analysis pipelines/
+!Microarray data analysis pipelines/GSE47460/
+!Microarray data analysis pipelines/GSE47460/GPL14550/
+!Microarray data analysis pipelines/GSE47460/GPL14550/HPvsIPF/
 
 
 !Meta analysis methods/**
