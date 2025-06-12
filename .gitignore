@@ -4,6 +4,10 @@
 # But do NOT ignore these folders and the .gitignore itself
 !.gitignore
 !Meta analysis methods
+!Bulk RNA Seq data analysis pipelines/
+!Microarray data analysis pipelines/
+
+
 !Meta analysis methods/**
 
 # ignore specific files in Bulk RNA Seq data analysis pipelines
