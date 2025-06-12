@@ -1,0 +1,30 @@
+# Ignore everything
+*
+
+# But do NOT ignore these folders and the .gitignore itself
+!.gitignore
+!Meta analysis methods/**
+
+# ignore specific files in Bulk RNA Seq data analysis pipelines
+
+#GSE184316
+!Bulk RNA Seq data analysis pipelines/GSE184316/code_GSE184316.R
+!Bulk RNA Seq data analysis pipelines/GSE184316/Heatmaps.R
+!Bulk RNA Seq data analysis pipelines/GSE184316/GSE184316_raw_counts.csv
+!Bulk RNA Seq data analysis pipelines/GSE184316/GSE184316_COUNTS_GENESYMBOLS.csv
+!Bulk RNA Seq data analysis pipelines/GSE184316/HPvsIPF/**
+
+#GSE150910
+!Bulk RNA Seq data analysis pipelines/GSE150910/code_GSE150910.R
+!Bulk RNA Seq data analysis pipelines/GSE150910/Heatmaps for DESeq2 results.R
+!BUlk RNA Seq data analysis pipelines/GSE150910/GSE150910_gene_counts.csv
+!Bulk RNA Seq data analysis pipelines/GSE150910/Biopsy samples/CHP vs IPF/**
+!Bulk RNA Seq data analysis pipelines/GSE150910/Explant samples/CHP vs IPF/**
+
+# ignore specific files in Microarray data analysis pipelines
+!Microarray data analysis pipelines/GSE47460/code_GSE47460.R
+!Microarray data analysis pipelines/GSE47460/code_to_check_offset_values.R
+!Microarray data analysis pipelines/GSE47460/PCA plot to check batch effect.R
+!Microarray data analysis pipelines/GSE47460/GPL14550/heatmap_GPL14550.R
+!Microarray data analysis pipelines/GSE47460/GPL14550/volcano plot_GPL14550.R
+!Microarray data analysis pipelines/GSE47460/GPL14550/HPvsIPF/**
